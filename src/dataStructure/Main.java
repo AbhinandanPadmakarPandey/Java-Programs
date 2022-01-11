@@ -1,4 +1,4 @@
-package com.company;
+package dataStructure;
 
 public class Main {
 
