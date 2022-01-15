@@ -22,10 +22,10 @@ package dataStructure.Array;
  * arr = {1, 2, 3, 4, 5, 6, 7, 8}
  */
 
-public class MergeSortedArray
-{
+public class MergeSortedArray {
 
     // Merge arr1 and arr2 into resultantArray
+
     public static int[] mergeArrays(int[] arr1, int[] arr2) {
         int s1 = arr1.length;
         int s2 = arr2.length;
@@ -56,7 +56,7 @@ public class MergeSortedArray
         return resultantArray;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int[] arr1 = {1,12,14,17,23}; // creating a sorted array called arr1
         int[] arr2 = {11,19,27};  // creating a sorted array called arr2
